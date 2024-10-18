@@ -1,0 +1,115 @@
+Given Database contains products:
+  --- table step argument ---
+  | Id                                   | Name       | Description      | Price | Stock |
+  | 123e4567-e89b-12d3-a456-426614174000 | OldProduct | Some old product | 10.00 | 5     |
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DROP DATABASE testappdb WITH (FORCE);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE DATABASE testappdb;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Log" (
+          "Id" uuid NOT NULL,
+          "LogTimeUTC" timestamp with time zone NOT NULL,
+          "LogMessage" character varying(500) NOT NULL,
+          CONSTRAINT "PK_Log" PRIMARY KEY ("Id")
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Products" (
+          "Id" uuid NOT NULL,
+          "Name" character varying(20) NOT NULL,
+          "Description" character varying(500) NOT NULL,
+          "Price" numeric(18,2) NOT NULL,
+          "Stock" bigint NOT NULL DEFAULT 0,
+          CONSTRAINT "PK_Products" PRIMARY KEY ("Id")
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX "IX_Products_Name" ON "Products" ("Name");
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      DROP DATABASE testappdb WITH (FORCE);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (59ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE DATABASE testappdb;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (9ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Log" (
+          "Id" uuid NOT NULL,
+          "LogTimeUTC" timestamp with time zone NOT NULL,
+          "LogMessage" character varying(500) NOT NULL,
+          CONSTRAINT "PK_Log" PRIMARY KEY ("Id")
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE TABLE "Products" (
+          "Id" uuid NOT NULL,
+          "Name" character varying(20) NOT NULL,
+          "Description" character varying(500) NOT NULL,
+          "Price" numeric(18,2) NOT NULL,
+          "Stock" bigint NOT NULL DEFAULT 0,
+          CONSTRAINT "PK_Products" PRIMARY KEY ("Id")
+      );
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      CREATE UNIQUE INDEX "IX_Products_Name" ON "Products" ("Name");
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+      SELECT p."Id", p."Description", p."Name", p."Price", p."Stock"
+      FROM "Products" AS p
+      WHERE p."Name" = @__name_0
+      LIMIT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?', @p3='?' (DbType = Decimal), @p4='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "Products" ("Id", "Description", "Name", "Price", "Stock")
+      VALUES (@p0, @p1, @p2, @p3, @p4);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "Log" ("Id", "LogMessage", "LogTimeUTC")
+      VALUES (@p0, @p1, @p2);
+-> done: ProductStepDefinitions.GivenDatabaseContainsProducts(<table>) (0,4s)
+When A PUT request is made to '/Product/123e4567-e89b-12d3-a456-426614174000' with the following updated data:
+  --- table step argument ---
+  | Id                                   | Name           | Description            | Price | Stock |
+  | 123e4567-e89b-12d3-a456-426614174000 | UpdatedProduct | The product is updated | 20.00 | 15    |
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+      SELECT p."Id", p."Description", p."Name", p."Price", p."Stock"
+      FROM "Products" AS p
+      WHERE p."Id" = @__get_Item_0
+      LIMIT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__name_0='?'], CommandType='Text', CommandTimeout='30']
+      SELECT p."Id", p."Description", p."Name", p."Price", p."Stock"
+      FROM "Products" AS p
+      WHERE p."Name" = @__name_0
+      LIMIT 1
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@p4='?' (DbType = Guid), @p0='?', @p1='?', @p2='?' (DbType = Decimal), @p3='?' (DbType = Int64)], CommandType='Text', CommandTimeout='30']
+      UPDATE "Products" SET "Description" = @p0, "Name" = @p1, "Price" = @p2, "Stock" = @p3
+      WHERE "Id" = @p4;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?', @p2='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']
+      INSERT INTO "Log" ("Id", "LogMessage", "LogTimeUTC")
+      VALUES (@p0, @p1, @p2);
+-> done: ProductStepDefinitions.WhenAPUTRequestIsMadeToWithTheFollowingUpdatedData("/Product/123e4567...", <table>) (0,0s)
+Then The product should be updated successfully with status code 200
+-> done: ProductStepDefinitions.ThenTheProductShouldBeUpdatedSuccessfullyWithStatusCode(200) (0,0s)
+And The product in the database should be:
+  --- table step argument ---
+  | Id                                   | Name           | Description            | Price | Stock |
+  | 123e4567-e89b-12d3-a456-426614174000 | UpdatedProduct | The product is updated | 20.00 | 15    |
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (2ms) [Parameters=[@__get_Item_0='?' (DbType = Guid)], CommandType='Text', CommandTimeout='30']
+      SELECT p."Id", p."Description", p."Name", p."Price", p."Stock"
+      FROM "Products" AS p
+      WHERE p."Id" = @__get_Item_0
+      LIMIT 1
+info: Lab1App.Controllers.ProductController[0]
+      Get product with id 123e4567-e89b-12d3-a456-426614174000
+-> done: ProductStepDefinitions.ThenTheProductInTheDatabaseShouldBe(<table>) (0,0s)

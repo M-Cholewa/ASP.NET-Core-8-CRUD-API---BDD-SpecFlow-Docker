@@ -1,0 +1,442 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6970DAA2-1C54-461F-B5F8-384A53DB86B7}|..\\BddTest\\BddTest.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\bddtest\\stepdefinitions\\productstepdefinitions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\lab1app\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|solutionrelative:lab1app\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\lab1app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|solutionrelative:lab1app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6970DAA2-1C54-461F-B5F8-384A53DB86B7}|..\\BddTest\\BddTest.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\bddtest\\webappfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\entity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\repository\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6970DAA2-1C54-461F-B5F8-384A53DB86B7}|..\\BddTest\\BddTest.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\bddtest\\features\\product.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6970DAA2-1C54-461F-B5F8-384A53DB86B7}|..\\BddTest\\BddTest.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\bddtest\\bddtest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\lab1app\\lab1app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|solutionrelative:lab1app\\lab1app.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{297658BB-A087-4878-A1A3-1B8CD421E39E}|Domain\\Domain.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\domain\\dto\\productsimplifieddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{297658BB-A087-4878-A1A3-1B8CD421E39E}|Domain\\Domain.csproj|solutionrelative:domain\\dto\\productsimplifieddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\entity\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\entity\\log.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6970DAA2-1C54-461F-B5F8-384A53DB86B7}|..\\BddTest\\BddTest.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\bddtest\\implicitusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\business.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\lab1app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{224BA865-7FF5-4055-AC2E-E2BBF9C8F3D9}|Lab1App\\Lab1App.csproj|solutionrelative:lab1app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\repository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\business\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B4D7376-C7EE-4406-ACA1-ABDCD2F4649E}|Business\\Business.csproj|solutionrelative:business\\repository\\logrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|solutionrelative:docker-compose.dcproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|solutionrelative:docker-compose.override.yml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\postgresql\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|solutionrelative:postgresql\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A3C8744A-41BA-4B31-8242-FF1829CF14DD}|docker-compose.dcproj|solutionrelative:.dockerignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{297658BB-A087-4878-A1A3-1B8CD421E39E}|Domain\\Domain.csproj|c:\\users\\mateusz\\desktop\\mateus\\studia\\2st\\ztp\\lab1\\lab1app\\domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{297658BB-A087-4878-A1A3-1B8CD421E39E}|Domain\\Domain.csproj|solutionrelative:domain\\domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Business\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "Business\\Repository\\ProductRepository.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAAEIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:29:15.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductStepDefinitions.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\StepDefinitions\\ProductStepDefinitions.cs",
+              "RelativeDocumentMoniker": "..\\BddTest\\StepDefinitions\\ProductStepDefinitions.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\StepDefinitions\\ProductStepDefinitions.cs",
+              "RelativeToolTip": "..\\BddTest\\StepDefinitions\\ProductStepDefinitions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T13:47:17.938Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductSimplifiedDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Domain\\DTO\\ProductSimplifiedDTO.cs",
+              "RelativeDocumentMoniker": "Domain\\DTO\\ProductSimplifiedDTO.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Domain\\DTO\\ProductSimplifiedDTO.cs",
+              "RelativeToolTip": "Domain\\DTO\\ProductSimplifiedDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:43:42.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Lab1App.csproj",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\Lab1App.csproj",
+              "RelativeDocumentMoniker": "Lab1App\\Lab1App.csproj",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\Lab1App.csproj",
+              "RelativeToolTip": "Lab1App\\Lab1App.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T11:09:23.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\Program.cs",
+              "RelativeDocumentMoniker": "Lab1App\\Program.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\Program.cs",
+              "RelativeToolTip": "Lab1App\\Program.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAACUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T10:32:49.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Lab1App\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Lab1App\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAABgAAAAAAAAAAAAuwEsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T18:22:30.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\BaseRepository.cs",
+              "RelativeDocumentMoniker": "Business\\Repository\\BaseRepository.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\BaseRepository.cs",
+              "RelativeToolTip": "Business\\Repository\\BaseRepository.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAMwB4AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T21:06:42.466Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebAppFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\WebAppFactory.cs",
+              "RelativeDocumentMoniker": "..\\BddTest\\WebAppFactory.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\WebAppFactory.cs",
+              "RelativeToolTip": "..\\BddTest\\WebAppFactory.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAawA0AAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:28:03.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Entity\\Product.cs",
+              "RelativeDocumentMoniker": "Business\\Entity\\Product.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Entity\\Product.cs",
+              "RelativeToolTip": "Business\\Entity\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA4AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T14:10:15.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Log.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Entity\\Log.cs",
+              "RelativeDocumentMoniker": "Business\\Entity\\Log.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Entity\\Log.cs",
+              "RelativeToolTip": "Business\\Entity\\Log.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T17:29:50.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Business\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\AppDbContext.cs",
+              "RelativeToolTip": "Business\\AppDbContext.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCYAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T19:29:45.795Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Product.feature",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\Features\\Product.feature",
+              "RelativeDocumentMoniker": "..\\BddTest\\Features\\Product.feature",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\Features\\Product.feature",
+              "RelativeToolTip": "..\\BddTest\\Features\\Product.feature",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQWSURBVDhPdVRLb1tFFP7mPnztaydObOcJcWolhDRpVURQAyWNWgItsGlZ0YoFEgseKxCCFWv4AWzYIxAgQVRVlSo1En1IoDRtSUEpRFWUd9I4DztOff269r18c\u002B0oSRGf9dkzZ2Y\u002BnznnzBH4P3zRGMARXxtHcbKZdMg1uFjCVCmJr9IFzg/Cdd2Dgm\u002BQnylBTISH0Kydhakco0WKGXKZKFDwEfLOJObLV/BN5h42nXxtzYNa\u002BwVeNBScNRPoMs5BNd6FppwUEM8qQmlz4UYBEVGFGhNCtLo6vW5UutGglNDvS8GvZLFc9mT2BF8zWzFgjiCjvwdXDAc1M9JX36MnQp0ia\u002BfQZrbgWEOf8KuGb7OYikARXYjrIXTrj7DjJHG/VJQyVcGYIvC8McwNFzkbUaCorf5mXIifx\u002BmWE1jMrWAwOoC34\u002BcYJuBu\u002Bk95SiEPkRmslZcZglVYrmcEPgqbGPSf4ui04F/XayHYbhl\u002BNYBOM46j4T6ciL2AOtrLtO\u002BDTp7BkH8IH4c9g\u002BZ9G6IPmkj4FX/ombqE\u002BLT3Q6zk1rBgLeO3jdtYyK9gPrcIh\u002B7NZhe8I8RuQp/msJszxhlbVQ\u002BBLrKpgopquzbXBNoDLUjbGUykJykyjzup\u002BxjfuoclXv8JBJj5ZhYVhatxkIiQpu2UsVFMYWLzDyQLG8iWLY9WOYd0aRu2U0LMiKA7lEDMFwWzXj0NBMmYHOwKepCeyW8Zv216Z9kWr\u002BlwEyPLT6PRgJebjuNi51s42TQIkzGuQep44dsVXCctUwugP9yDT3rex6stwzgUiiOshRHW6xE1GuEXfnQE2vFm6wj3fIAIbTXI4k7LQdXnVwIKIuoAX87hfKUokoV13FwfR4f5FE41vQSfZuB49DnPq8cMwZXVa5hgTKcy0yg5JabdHUfaGcWveavq4c38Iubsv1kSy\u002BvFTVxekQcmIT3ua\u002BiBrugIqkGWz2Hv6tfXf8fY2g0vtsQyZu0ZaqTkpOrhbLmIuOZHlx7lM0sUnILuU3TRHmhFzsnhFr3N2DsIaUHMsXymMv\u002BAe1jisijdG7hTuopfrIdSaq85vBOqxxnzdejic1r7afGxLoWqKEJ6ItPiU31MUoXZtinmdZ8k7/wlruV/xvfZDSmz95YXyzYsZw1HjQc8LYu0oeJWZCnVEud6YrTJiRTLkF/jp\u002BxVjLHyi/JR7heUhu1KgcHdRK8xx5UZWmXm5PNqkltqkE3gIUrudxQbxe3CHFIs0Br2BCUsiiYZT00sMUnzvOUOGlVZG0dImYElchxblcu4lR/FWG4GKdfrMrs4KCghl/8quWxHWTbZAnp9IVpkV5nmta/zBj/ibukSvn28yr3e/ffjYMd\u002BEhfqwjgf7OConZyGqCRxKVfED5a3/F8A/wKUXZtBUQWfiQAAAABJRU5ErkJggg==",
+              "WhenOpened": "2024-10-18T14:09:40.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BddTest.csproj",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\BddTest.csproj",
+              "RelativeDocumentMoniker": "..\\BddTest\\BddTest.csproj",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\BddTest.csproj",
+              "RelativeToolTip": "..\\BddTest\\BddTest.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T12:35:08.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Microsoft.NET.TargetFrameworkInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAgwKUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-18T11:24:59.441Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ImplicitUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\ImplicitUsings.cs",
+              "RelativeDocumentMoniker": "..\\BddTest\\ImplicitUsings.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\BddTest\\ImplicitUsings.cs",
+              "RelativeToolTip": "..\\BddTest\\ImplicitUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T11:36:46.265Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAEIJAAAAAAAAAAAgwFQJAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-10-18T11:22:43.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Business.csproj",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Business.csproj",
+              "RelativeDocumentMoniker": "Business\\Business.csproj",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Business.csproj",
+              "RelativeToolTip": "Business\\Business.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-18T10:41:37.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\appsettings.json",
+              "RelativeDocumentMoniker": "Lab1App\\appsettings.json",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Lab1App\\appsettings.json",
+              "RelativeToolTip": "Lab1App\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-15T22:11:27.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LogRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\LogRepository.cs",
+              "RelativeDocumentMoniker": "Business\\Repository\\LogRepository.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\LogRepository.cs",
+              "RelativeToolTip": "Business\\Repository\\LogRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T19:15:42.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "docker-compose.dcproj",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\docker-compose.dcproj",
+              "RelativeDocumentMoniker": "docker-compose.dcproj",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\docker-compose.dcproj",
+              "RelativeToolTip": "docker-compose.dcproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-15T18:24:17.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\IRepository.cs",
+              "RelativeDocumentMoniker": "Business\\Repository\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Business\\Repository\\IRepository.cs",
+              "RelativeToolTip": "Business\\Repository\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T19:30:19.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": ".dockerignore",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\.dockerignore",
+              "RelativeDocumentMoniker": ".dockerignore",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\.dockerignore",
+              "RelativeToolTip": ".dockerignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-15T18:27:42.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "docker-compose.override.yml",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\docker-compose.override.yml",
+              "RelativeDocumentMoniker": "docker-compose.override.yml",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\docker-compose.override.yml",
+              "RelativeToolTip": "docker-compose.override.yml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-10-15T18:26:14.136Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\PostgreSQL\\Dockerfile",
+              "RelativeDocumentMoniker": "PostgreSQL\\Dockerfile",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\PostgreSQL\\Dockerfile",
+              "RelativeToolTip": "PostgreSQL\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-15T18:27:37.073Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Domain\\Domain.csproj",
+              "RelativeDocumentMoniker": "Domain\\Domain.csproj",
+              "ToolTip": "C:\\Users\\Mateusz\\Desktop\\mateus\\STUDIA\\2ST\\ZTP\\LAB1\\Lab1App\\Domain\\Domain.csproj",
+              "RelativeToolTip": "Domain\\Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-15T18:22:26.588Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

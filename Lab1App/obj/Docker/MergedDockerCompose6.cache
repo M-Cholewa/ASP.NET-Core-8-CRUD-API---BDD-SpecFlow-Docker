@@ -1,0 +1,60 @@
+name: dockercompose15548074412468509572
+services:
+  lab1app:
+    build:
+      context: C:\Users\Mateusz\Desktop\mateus\STUDIA\2ST\ZTP\LAB1\Lab1App
+      dockerfile: Lab1App/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_HTTP_PORTS: "8080"
+      ASPNETCORE_HTTPS_PORTS: "8081"
+    image: lab1app
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 8080
+        protocol: tcp
+      - mode: ingress
+        target: 8081
+        protocol: tcp
+    volumes:
+      - type: bind
+        source: C:\Users\Mateusz\AppData\Roaming/Microsoft/UserSecrets
+        target: /home/app/.microsoft/usersecrets
+        read_only: true
+        bind:
+          create_host_path: true
+      - type: bind
+        source: C:\Users\Mateusz\AppData\Roaming/ASP.NET/Https
+        target: /home/app/.aspnet/https
+        read_only: true
+        bind:
+          create_host_path: true
+  postgresql:
+    build:
+      context: C:\Users\Mateusz\Desktop\mateus\STUDIA\2ST\ZTP\LAB1\Lab1App
+      dockerfile: Dockerfiles/PostgreSQL/Dockerfile
+    container_name: PostgreSQL
+    environment:
+      POSTGRES_DB: appdb
+      POSTGRES_PASSWORD: dbpass
+      POSTGRES_USER: dbuser
+    image: postgres:16.0
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5432
+        published: "5432"
+        protocol: tcp
+    restart: always
+    volumes:
+      - type: bind
+        source: C:\Users\Mateusz\Desktop\mateus\STUDIA\2ST\ZTP\LAB1\Lab1App\Dockerfiles\PostgreSQL\pgsql-dump.sql
+        target: /docker-entrypoint-initdb.d/pgsql-dump.sql
+        bind:
+          create_host_path: true
+networks:
+  default:
+    name: dockercompose15548074412468509572_default

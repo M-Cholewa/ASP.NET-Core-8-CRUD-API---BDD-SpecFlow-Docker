@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  lab1app:
+    image: ${DOCKER_REGISTRY-}lab1app
+    build:
+      context: .
+      dockerfile: Lab1App/Dockerfile
+
+  postgresql:
+    image: postgres:16.0
+    build:
+      context: .
+      dockerfile: PostgreSQL/Dockerfile

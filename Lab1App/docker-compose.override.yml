@@ -1,0 +1,25 @@
+version: '3.4'
+
+services:
+  lab1app:
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_HTTP_PORTS=8080
+      - ASPNETCORE_HTTPS_PORTS=8081
+    ports:
+      - "8080"
+      - "8081"
+    volumes:
+      - ${APPDATA}/Microsoft/UserSecrets:/home/app/.microsoft/usersecrets:ro
+      - ${APPDATA}/ASP.NET/Https:/home/app/.aspnet/https:ro
+  postgresql:
+    container_name: "PostgreSQL"
+    restart: always
+    environment:
+      - POSTGRES_DB=appdb
+      - POSTGRES_USER=dbuser
+      - POSTGRES_PASSWORD=dbpass
+    ports:
+      - 5432:5432
+    volumes:
+      - ./Dockerfiles/PostgreSQL/pgsql-dump.sql:/docker-entrypoint-initdb.d/pgsql-dump.sql
