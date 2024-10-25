@@ -51,6 +51,7 @@ namespace Lab1App.Controllers
         {
             try
             {
+                product.Id = Guid.NewGuid();
                 var newProduct = await _productRepository.AddAsync(product);
                 return CreatedAtAction(nameof(Get), new { id = newProduct.Id }, newProduct);
             }
